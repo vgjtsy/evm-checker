@@ -28,6 +28,18 @@ export async function chooseNetwork(): Promise<Network> {
           value: Network.AVALANCHE,
         },
         {
+          name: `${getNextIndex()}) Celo`,
+          value: Network.CELO,
+        },
+        {
+          name: `${getNextIndex()}) Gnosis`,
+          value: Network.GNOSIS,
+        },
+        {
+          name: `${getNextIndex()}) Polygon_zkEVM`,
+          value: Network.POLYGON_ZKEVM,
+        },
+        {
           name: `${getNextIndex()}) Base`,
           value: Network.BASE,
         },

@@ -15,6 +15,20 @@ import {
   RPC_URL as RPC_URL_AVALANCHE,
 } from "./avalanche";
 
+import {
+  COLUMNS as COLUMNS_CELO,
+  RPC_URL as RPC_URL_CELO,
+} from "./celo";
+
+import {
+  COLUMNS as COLUMNS_GNOSIS,
+  RPC_URL as RPC_URL_GNOSIS,
+} from "./gnosis";
+import {
+  COLUMNS as COLUMNS_POLYGON_ZKEVM,
+  RPC_URL as RPC_URL_POLYGON_ZKEVM,
+} from "./polygon_zkevm";
+
 import { COLUMNS as COLUMNS_BASE, RPC_URL as RPC_URL_BASE } from "./base";
 
 import {
@@ -77,6 +91,18 @@ export const CONFIG: Config = {
   [Network.AVALANCHE]: {
     RPC_URL: RPC_URL_AVALANCHE,
     COLUMNS: COLUMNS_AVALANCHE,
+  },
+  [Network.CELO]: {
+    RPC_URL: RPC_URL_CELO,
+    COLUMNS: COLUMNS_CELO,
+  },
+  [Network.GNOSIS]: {
+    RPC_URL: RPC_URL_GNOSIS,
+    COLUMNS: COLUMNS_GNOSIS,
+  },
+  [Network.POLYGON_ZKEVM]: {
+    RPC_URL: RPC_URL_POLYGON_ZKEVM,
+    COLUMNS: COLUMNS_POLYGON_ZKEVM,
   },
   [Network.BASE]: {
     RPC_URL: RPC_URL_BASE,
