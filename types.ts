@@ -12,6 +12,7 @@ export enum Network {
   ETHEREUM = "ethereum",
   FANTOM = "fantom",
   GNOSIS = "gnosis",
+  HARMONY = "harmony",
   LINEA = "linea",
   OPTIMISM = "optimism",
   POLYGON = "polygon",

@@ -36,6 +36,10 @@ export async function chooseNetwork(): Promise<Network> {
           value: Network.GNOSIS,
         },
         {
+          name: `${getNextIndex()}) Harmony`,
+          value: Network.HARMONY,
+        },
+        {
           name: `${getNextIndex()}) Polygon_zkEVM`,
           value: Network.POLYGON_ZKEVM,
         },

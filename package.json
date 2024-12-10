@@ -9,6 +9,7 @@
     "arbitrum": "npx tsx index.ts arbitrum",
     "arbitrum-nova": "npx tsx index.ts arbitrum-nova",
     "avalanche": "npx tsx index.ts avalanche",
+    "harmony": "npx tsx index.ts harmony",
     "celo": "npx tsx index.ts celo",
     "gnosis": "npx tsx index.ts gnosis",
     "polygon_zkevm": "npx tsx index.ts polygon_zkevm",

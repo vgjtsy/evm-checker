@@ -21,6 +21,11 @@ import {
 } from "./celo";
 
 import {
+  COLUMNS as COLUMNS_HARMONY,
+  RPC_URL as RPC_URL_HARMONY,
+} from "./harmony";
+
+import {
   COLUMNS as COLUMNS_GNOSIS,
   RPC_URL as RPC_URL_GNOSIS,
 } from "./gnosis";
@@ -99,6 +104,10 @@ export const CONFIG: Config = {
   [Network.GNOSIS]: {
     RPC_URL: RPC_URL_GNOSIS,
     COLUMNS: COLUMNS_GNOSIS,
+  },
+  [Network.HARMONY]: {
+    RPC_URL: RPC_URL_HARMONY,
+    COLUMNS: COLUMNS_HARMONY,
   },
   [Network.POLYGON_ZKEVM]: {
     RPC_URL: RPC_URL_POLYGON_ZKEVM,
