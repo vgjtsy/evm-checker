@@ -56,8 +56,8 @@ export async function chooseNetwork(): Promise<Network> {
           value: Network.BASE_SEPOLIA,
         },
         {
-          name: `${getNextIndex()}) Berachain Testnet`,
-          value: Network.BERACHAIN_TESTNET,
+          name: `${getNextIndex()}) Monad Testnet`,
+          value: Network.MONAD_TESTNET,
         },
         {
           name: `${getNextIndex()}) Blast`,

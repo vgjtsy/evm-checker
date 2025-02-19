@@ -47,9 +47,9 @@ import {
 } from "./base-sepolia";
 
 import {
-  COLUMNS as COLUMNS_BERACHAIN_TESTNET,
-  RPC_URL as RPC_URL_BERACHAIN_TESTNET,
-} from "./berachain-testnet";
+  COLUMNS as COLUMNS_MONAD_TESTNET,
+  RPC_URL as RPC_URL_MONAD_TESTNET,
+} from "./monad-testnet";
 
 import { COLUMNS as COLUMNS_BLAST, RPC_URL as RPC_URL_BLAST } from "./blast";
 
@@ -74,7 +74,10 @@ import {
   RPC_URL as RPC_URL_POLYGON,
 } from "./polygon";
 
-import { COLUMNS as COLUMNS_SCROLL, RPC_URL as RPC_URL_SCROLL } from "./scroll";
+import { 
+  COLUMNS as COLUMNS_SCROLL, 
+  RPC_URL as RPC_URL_SCROLL 
+} from "./scroll";
 
 import {
   COLUMNS as COLUMNS_ZKSYNC,
@@ -125,9 +128,9 @@ export const CONFIG: Config = {
     RPC_URL: RPC_URL_BASE_SEPOLIA,
     COLUMNS: COLUMNS_BASE_SEPOLIA,
   },
-  [Network.BERACHAIN_TESTNET]: {
-    RPC_URL: RPC_URL_BERACHAIN_TESTNET,
-    COLUMNS: COLUMNS_BERACHAIN_TESTNET,
+  [Network.MONAD_TESTNET]: {
+    RPC_URL: RPC_URL_MONAD_TESTNET,
+    COLUMNS: COLUMNS_MONAD_TESTNET,
   },
   [Network.BLAST]: {
     RPC_URL: RPC_URL_BLAST,

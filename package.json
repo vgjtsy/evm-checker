@@ -20,6 +20,7 @@
     "blast": "npx tsx index.ts blast",
     "bnb": "npx tsx index.ts bnb",
     "ethereum": "npx tsx index.ts ethereum",
+    "monad": "npx tsx index.ts monad",
     "fantom": "npx tsx index.ts fantom",
     "linea": "npx tsx index.ts linea",
     "optimism": "npx tsx index.ts optimism",

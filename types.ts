@@ -5,7 +5,7 @@ export enum Network {
   BASE = "base",
   BASE_GOERLI = "base-goerli",
   BASE_SEPOLIA = "base-sepolia",
-  BERACHAIN_TESTNET = "berachain-testnet",
+  MONAD_TESTNET = "monad-testnet",
   BLAST = "blast",
   BNB = "bnb",
   CELO = "celo",

@@ -40,7 +40,3 @@ https://t.me/raznorabochiy_chat
 или
 
 raznorabochiy.eth
-
-raznorabochiy.arb
-
-raznorabochiy.bnb
