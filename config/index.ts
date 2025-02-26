@@ -34,7 +34,10 @@ import {
   RPC_URL as RPC_URL_POLYGON_ZKEVM,
 } from "./polygon_zkevm";
 
-import { COLUMNS as COLUMNS_BASE, RPC_URL as RPC_URL_BASE } from "./base";
+import { 
+  COLUMNS as COLUMNS_BASE, 
+  RPC_URL as RPC_URL_BASE 
+} from "./base";
 
 import {
   COLUMNS as COLUMNS_BASE_GOERLI,
@@ -47,22 +50,39 @@ import {
 } from "./base-sepolia";
 
 import {
+  COLUMNS as COLUMNS_ETHEREUM_SEPOLIA,
+  RPC_URL as RPC_URL_ETHEREUM_SEPOLIA,
+} from "./ethereum-sepolia";
+
+import {
   COLUMNS as COLUMNS_MONAD_TESTNET,
   RPC_URL as RPC_URL_MONAD_TESTNET,
 } from "./monad-testnet";
 
-import { COLUMNS as COLUMNS_BLAST, RPC_URL as RPC_URL_BLAST } from "./blast";
+import { 
+  COLUMNS as COLUMNS_BLAST, 
+  RPC_URL as RPC_URL_BLAST
+} from "./blast";
 
-import { COLUMNS as COLUMNS_BNB, RPC_URL as RPC_URL_BNB } from "./bnb";
+import { 
+  COLUMNS as COLUMNS_BNB, 
+  RPC_URL as RPC_URL_BNB 
+} from "./bnb";
 
 import {
   COLUMNS as COLUMNS_ETHEREUM,
   RPC_URL as RPC_URL_ETHEREUM,
 } from "./ethereum";
 
-import { COLUMNS as COLUMNS_FANTOM, RPC_URL as RPC_URL_FANTOM } from "./fantom";
+import { 
+  COLUMNS as COLUMNS_FANTOM, 
+  RPC_URL as RPC_URL_FANTOM 
+} from "./fantom";
 
-import { COLUMNS as COLUMNS_LINEA, RPC_URL as RPC_URL_LINEA } from "./linea";
+import { 
+  COLUMNS as COLUMNS_LINEA, 
+  RPC_URL as RPC_URL_LINEA 
+} from "./linea";
 
 import {
   COLUMNS as COLUMNS_OPTIMISM,
@@ -85,7 +105,15 @@ import {
   RPC_URL as RPC_URL_ZKSYNC,
 } from "./zksync";
 
-import { COLUMNS as COLUMNS_ZORA, RPC_URL as RPC_URL_ZORA } from "./zora";
+import { 
+  COLUMNS as COLUMNS_ZORA, 
+  RPC_URL as RPC_URL_ZORA 
+} from "./zora";
+
+
+
+
+
 
 export const CONFIG: Config = {
   [Network.ARBITRUM]: {
@@ -127,6 +155,10 @@ export const CONFIG: Config = {
   [Network.BASE_SEPOLIA]: {
     RPC_URL: RPC_URL_BASE_SEPOLIA,
     COLUMNS: COLUMNS_BASE_SEPOLIA,
+  },
+  [Network.ETHEREUM_SEPOLIA]: {
+    RPC_URL: RPC_URL_ETHEREUM_SEPOLIA,
+    COLUMNS: COLUMNS_ETHEREUM_SEPOLIA,
   },
   [Network.MONAD_TESTNET]: {
     RPC_URL: RPC_URL_MONAD_TESTNET,

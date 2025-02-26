@@ -56,6 +56,10 @@ export async function chooseNetwork(): Promise<Network> {
           value: Network.BASE_SEPOLIA,
         },
         {
+          name: `${getNextIndex()}) Ethereum Sepolia`,
+          value: Network.ETHEREUM_SEPOLIA,
+        },
+        {
           name: `${getNextIndex()}) Monad Testnet`,
           value: Network.MONAD_TESTNET,
         },
