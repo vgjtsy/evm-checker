@@ -1,7 +1,5 @@
 # EVM Checker 🐆
 
-<img src="https://raw.githubusercontent.com/raznorabochiy/evm-checker/main/cheetah.jpg" width="800" />
-
 ## Установка
 
 ```
@@ -10,7 +8,7 @@ npm install
 
 ## Настройки
 
-Кладём EVM-адреса в файл wallets.txt
+Кладём EVM-адреса в файл _wallets.txt_
 
 При желании в wallets.txt можно класть приватники вместо адресов, тогда они тоже
 будут отображаться в итоговой таблице вместе с адресом, но это не обязательно.
