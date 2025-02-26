@@ -28,6 +28,31 @@ npm install
 
 ---
 
+**Доступные сети:**
+1. Arbitrum
+2. Arbitrum Nova
+3. Avalanche
+4. Celo
+5. Gnosis
+6. Harmony
+7. Polygon_zkEVM
+8. Base
+9. Base Goerli
+10. Base Sepolia
+11. Monad Testnet
+12. Blast
+13. BNB
+14. Ethereum
+15. Fantom
+16. Linea
+17. Optimism
+18. Polygon
+19. Scroll
+20. zkSync
+21. Zora
+
+---
+
 Анонсы и статьи: https://t.me/raznorabochiy_notes Вопросы и обсуждения:
 https://t.me/raznorabochiy_chat
 
