@@ -64,6 +64,10 @@ export async function chooseNetwork(): Promise<Network> {
           value: Network.MONAD_TESTNET,
         },
         {
+          name: `${getNextIndex()}) Sahara Testnet`,
+          value: Network.SAHARA_TESTNET,
+        },
+        {
           name: `${getNextIndex()}) Blast`,
           value: Network.BLAST,
         },
@@ -94,6 +98,14 @@ export async function chooseNetwork(): Promise<Network> {
         {
           name: `${getNextIndex()}) Scroll`,
           value: Network.SCROLL,
+        },
+        {
+          name: `${getNextIndex()}) Xterio`,
+          value: Network.XTERIO,
+        },
+        {
+          name: `${getNextIndex()}) MegaETH`,
+          value: Network.MEGAETH,
         },
         {
           name: `${getNextIndex()}) zkSync`,

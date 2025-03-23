@@ -7,6 +7,7 @@ export enum Network {
   BASE_SEPOLIA = "base-sepolia",
   ETHEREUM_SEPOLIA = "ethereum-sepolia",
   MONAD_TESTNET = "monad-testnet",
+  SAHARA_TESTNET = "sahara-testnet",
   BLAST = "blast",
   BNB = "bnb",
   CELO = "celo",
@@ -19,6 +20,8 @@ export enum Network {
   POLYGON = "polygon",
   POLYGON_ZKEVM = "polygon_zkevm",
   SCROLL = "scroll",
+  XTERIO = "xterio",
+  MEGAETH = "megaeth",
   ZKSYNC = "zksync",
   ZORA = "zora",
 }
